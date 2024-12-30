@@ -1,0 +1,36 @@
+.view-section{
+    width: 70%;
+    margin-left: 210px;
+    margin-top: 25px;
+    height: 90vh;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+}
+
+.view-section h2{
+    text-align: center;
+}
+.branch-details {
+    width: 98.%;
+    height: 77vh;
+    overflow-y: scroll;
+    padding-left: 30px;
+
+}
+.cancel{
+    padding: 10px 30px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+.cancel:hover{
+    background-color: red;
+    color: white;
+
+}
+.cancel:active{
+    transform: scale(0.9);
+}
